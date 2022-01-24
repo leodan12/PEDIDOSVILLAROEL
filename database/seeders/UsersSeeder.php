@@ -15,12 +15,7 @@ class UsersSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert(['name' => 'administrador','email' => 'administrador@gmail.com', 'password' =>bcrypt('password') ,'perfils_id' => '1','is_admin' => TRUE,]);
-        DB::table('users')->insert(['name' => 'docente','email' => 'docenteE@gmail.com', 'password' =>bcrypt('password') ,'perfils_id' => '2','is_admin' => FALSE,]);
-        DB::table('users')->insert(['name' => 'director','email' => 'director@gmail.com', 'password' =>bcrypt('password') ,'perfils_id' => '3','is_admin' => FALSE,]);
+        DB::table('users')->insert(['name' => 'gerente','email' => 'gerente@gmail.com', 'password' =>bcrypt('password') ,'perfils_id' => '2','is_admin' => FALSE,]);
           //usuarios de egresados
-
-        DB::table('users')->insert(['name' => 'richardbraul','email' => 'richardbraul@gmail.com', 'password' =>bcrypt('password') ,'perfils_id' => '5','is_admin' => FALSE,]);
-        DB::table('users')->insert(['name' => 'leodanmachuca','email' => 'leodanmachuca@gmail.com', 'password' =>bcrypt('password') ,'perfils_id' => '5','is_admin' => FALSE,]);
-
     }
 }
