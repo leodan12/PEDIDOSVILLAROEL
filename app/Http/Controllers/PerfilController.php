@@ -103,17 +103,17 @@ class PerfilController extends Controller
     }
 
    
-    public function docente()
+    public function gerente()
     {
        //return "eres un secretariaE... estas a cargo del sistema";
-       return view('inicioDocente');
+       return view('inicioGerente');
 
     }
 
-    public function director()
+    public function empleado()
     {
        //return "eres un secretariaC... estas a cargo del sistema";
-       return view('inicioDirector');
+       return view('inicioEmpleado');
 
     }
  

@@ -15,14 +15,14 @@ class OrdenSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('ordencompra')->insert([
+        DB::table('ordencompras')->insert([
             'estadoOrden' => 'NO LISTAR', 
             'fechaorden' => '2022-01-15', 
             'lugar' => 'El Porvenir', 
             'idcliente' => '1', 
         ]);
 
-        DB::table('ordencompra')->insert([
+        DB::table('ordencompras')->insert([
             'estadoOrden' => 'PARA LISTAR', 
             'fechaorden' => '2022-01-24', 
             'lugar' => 'El Porvenir', 

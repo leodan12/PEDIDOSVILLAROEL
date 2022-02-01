@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Asistencia extends Migration
+class CreateDetalleordensTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class Asistencia extends Migration
      */
     public function up()
     {
-        Schema::create('asistencia', function (Blueprint $table) {
+        Schema::create('detalleordens', function (Blueprint $table) {
             $table->id();
-            $table->date('fecha');
-            $table->string('estadoAsistencia');
-            $table->integer('idpersonal');
+            $table->integer('idordencompra');
+            $table->integer('idproducto');
+            $table->string('descripcion');
+            $table->integer('cantidad');
+            $table->string('unidad');
             $table->boolean('estado')->default(true);
             $table->timestamps();
         });
@@ -30,7 +32,6 @@ class Asistencia extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('asistencia');
-
+        Schema::dropIfExists('detalleordens');
     }
 }

@@ -21,6 +21,7 @@ class Personal extends Migration
             $table->string('telefono');
             $table->string('direccion');
             $table->string('sexo');
+            $table->integer('idUsuario');
             $table->boolean('estado')->default(true);
             $table->timestamps();
         });

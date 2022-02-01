@@ -15,7 +15,7 @@ class DetalleOrdenSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('detalleorden')->insert([
+        DB::table('detalleordens')->insert([
             'idordencompra' => '1', 
             'idproducto' => '1', 
             'descripcion' => 'COMPRA DE CLIENTE 01', 
@@ -23,7 +23,7 @@ class DetalleOrdenSeeder extends Seeder
             'unidad' => 'sacos', 
         ]);
 
-        DB::table('detalleorden')->insert([
+        DB::table('detalleordens')->insert([
             'idordencompra' => '2', 
             'idproducto' => '2', 
             'descripcion' => 'COMPRA DE CLIENTE 02', 

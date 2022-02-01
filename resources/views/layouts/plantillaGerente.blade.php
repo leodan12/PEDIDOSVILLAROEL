@@ -7,7 +7,7 @@
  <link rel="icon" type="../../image/png" href="../../img/centrotpf.png">  <!--logo arriba--> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    CARGAHORARIA
+    PEDIDOSVILLAROEL
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--    FUENTESITAS E ICONOS     -->
@@ -54,7 +54,7 @@
         
           
           <li class="nav-item d-none d-sm-inline-block">
-            <a class="nav-link" rel="tooltip" title="Inicio" data-placement="bottom" href="/secretariaE">
+            <a class="nav-link" rel="tooltip" title="Inicio" data-placement="bottom" href="/gerente">
                 <img class="img-fluid" src="../../img/inicio.png">
                 
                  
@@ -65,21 +65,17 @@
           </li>
           <li class="nav-item d-none d-sm-inline-block">
             <a class="nav-link" rel="tooltip" title="Logueado como secretaria de escuela" data-placement="bottom" href="#">
-              <h5> DIRECTOR</h5>       
+              <h5> GERENTE</h5>       
             </a>
           </li>
 
           <li class="nav-item d-none d-sm-inline-block">
-            <a class="nav-link" rel="tooltip" title="Gestionar Empresas" data-placement="bottom" href="/empresas">
-              <h5>EMPRESAS</h5>
+            <a class="nav-link" rel="tooltip" title="Gestionar Empresas" data-placement="bottom" href="/gestionarordenes">
+              <h5>GESTIONAR ORDENES</h5>
             </a>
           </li>
 
-          <li class="nav-item d-none d-sm-inline-block">
-            <a class="nav-link" rel="tooltip" title="Gestionar Ofertas Laborales" data-placement="bottom" href="/ofertaslaborales">
-              <h5>OFERTAS LABORALES</h5>
-            </a>
-          </li>
+          
          
         </ul>
       </div>
@@ -88,8 +84,8 @@
 
         
         <a class="navbar-brand" href="#" rel="tooltip" title="Hemos trabajado mucho en este proyecto" data-placement="bottom" >    
-            <div class="d-md-none h6" >⭐ BIENVENIDO A EL PROYECTO DE ING DE SOFTWARE II⭐</div>
-            <div class="d-none d-md-block h5" >⭐ BIENVENIDO A EL PROYECTO DE ING DE SOFTWARE II⭐</div>
+            <div class="d-md-none h6" >⭐ BIENVENIDO A EL PROYECTO DE IOT⭐</div>
+            <div class="d-none d-md-block h5" >⭐ BIENVENIDO A EL PROYECTO DE IOT⭐</div>
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation" style="position: absolute;bottom: 18px; right: 5px;">
           <span class="navbar-toggler-bar top-bar"></span>
@@ -148,7 +144,7 @@
 
             <h1 class="mb-1" >UNIVERSIDAD NACIONAL DE TRUJILLO</h1> 
             <h3 class="mb-5">
-              <em>ASIGNACION DE CARGA HORARIA </em>
+              <em>PEDIDOS VILLAROEL </em>
             </h3>
 
             <h3 class="mb-5">

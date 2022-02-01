@@ -34,6 +34,13 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::resource('perfil','PerfilController');
 Route::resource('usuario','UserController');
+
+Route::resource('ordencompra','OrdenCompraController');
+Route::resource('detallepedido','DetallepedidoController');
+
+Route::resource('asistencia','AsistenciaController');
+
+
 /*
 Route::resource('empresa','EmpresaController');
 Route::resource('ofertalaboral','OfertalaboralController');
@@ -47,8 +54,8 @@ Route::resource('respuesta', 'RespuestaController');*/
 //para entrar con diferente perfil
 
 Route::get('/administrador', 'PerfilController@administrador');
-Route::get('/docente', 'PerfilController@docente');
-Route::get('/director', 'PerfilController@director');
+Route::get('/empleado', 'PerfilController@empleado');
+Route::get('/gerente', 'PerfilController@gerente');
  
 
 
@@ -57,19 +64,18 @@ Route::get('/director', 'PerfilController@director');
 
 Route::get('/users', 'UserController@index');
 Route::get('/perfiles', 'PerfilController@index');
-Route::get('/empresas', 'EmpresaController@index');
-Route::get('/ofertaslaborales', 'OfertalaboralController@index');
-Route::get('/experiencialaborales', 'ExperiencialaboralController@index');
-Route::get('/publicaciones', 'PublicacionController@index');
-Route::get('/encuestas', 'EncuestaController@index');
+Route::get('/asistencia', 'AsistenciaController@index')->name('asistencia');
+
+Route::get('/ordencompra', 'OrdenCompraController@index')->name('ordencompra');
+ 
+Route::get('/detallededido/{id}','DetallepedidoController@edit')->name('detallededido');
+Route::get('/agregarpedido/{id}','DetallepedidoController@create')->name('agregarpedido');
+
+Route::post('/guardardetalle', 'OrdenCompraController@store')->name('guardardetalle');
 
 //rutas de metodos adicionales
-Route::get('/Encuesta/{id}','EncuestaController@estado')->name('estadoencuesta');
-Route::get('/PreguntasEncuesta/{id}','PreguntaController@listap')->name('listapreguntas');
-Route::get('/CrearPreguntasEncuesta/{id}','PreguntaController@crear')->name('crearpreguntas');
-Route::get('/responderencuestas','EncuestaController@listaE')->name('responderencuestas');
-Route::get('/preguntasEncuestaE/{id}','RespuestaController@listar')->name('listarpreguntas');
-Route::get('/Responderpreguntas/{id}','RespuestaController@crear')->name('responderpreguntas');
+ 
+//Route::get('/Responderpreguntas/{id}','RespuestaController@crear')->name('responderpreguntas');
 
 
 // cancelaciones 
@@ -80,15 +86,15 @@ Route::get('cancelarPerfil', function () {
 Route::get('cancelarUsuario', function () {
     return redirect()->route('usuario.index')->with('datos','Accion cancelada..!');
 })->name('cancelarUsuario');  //le damos nombre a la ruta
-Route::get('cancelarEmpresa', function () {
-    return redirect()->route('empresa.index')->with('datos','Accion cancelada..!');
-})->name('cancelarEmpresa');  //le damos nombre a la ruta
-Route::get('cancelarEncuesta', function () {
-    return redirect()->route('encuesta.index')->with('datos','Accion cancelada..!');
-})->name('cancelarEncuesta');  //le damos nombre a la ruta
-Route::get('cancelarRespuesta', function () {
-    return redirect()->route('respuesta.listar')->with('datos','Accion cancelada..!');
-})->name('cancelarRespuesta');  //le damos nombre a la ruta
+
+Route::get('cancelarOrden', function () {
+    return redirect()->route('ordencompra')->with('datos','Accion cancelada..!');
+})->name('cancelarOrden');  //le damos nombre a la ruta
+
+Route::get('cancelarAsistencia', function () {
+    return redirect()->route('asistencia')->with('datos','Accion cancelada..!');
+})->name('cancelarAsistencia');  //le damos nombre a la ruta
+
 
 
 

@@ -15,19 +15,19 @@ class AsistenciaSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('asistencia')->insert([
+        DB::table('asistencias')->insert([
             'fecha' => '2022-01-24', 
             'estadoAsistencia' => 'PRESENTE', 
             'idpersonal' => '1', 
         ]);
 
-        DB::table('asistencia')->insert([
+        DB::table('asistencias')->insert([
             'fecha' => '2022-01-15', 
             'estadoAsistencia' => 'AUSENTE', 
             'idpersonal' => '1', 
         ]);
 
-        DB::table('asistencia')->insert([
+        DB::table('asistencias')->insert([
             'fecha' => '2022-01-24', 
             'estadoAsistencia' => 'AUSENTE', 
             'idpersonal' => '2', 

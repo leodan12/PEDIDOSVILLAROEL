@@ -30,17 +30,7 @@
           <img class="img-fluid" src="/img/colegiofondo01.jpg" alt="">
         </a>
       </div>           
-      <div class="col-12 col-sm-6 col-md-4">
-        <a class="portfolio-item" href="/alumno">
-          <div class="caption">
-            <div class="caption-content">
-              <div class="h2">OPCION 3</div>
-              <p class="mb-0">Gestionar la opcion 3</p>
-            </div>
-          </div>
-          <img class="img-fluid" src="/img/ALUMNOS.jpg" alt="">
-        </a>
-      </div>
+       
     
      
     <!--<div class="row no-gutters">-->
@@ -56,19 +46,7 @@
 
 <div class="row no-gutters">
   
-   
-  <!-- 
-  <div class="col-lg-4">
-    <a class="portfolio-item" href="/periodo">
-      <div class="caption">
-        <div class="caption-content">
-          <div class="h2">PERIODOS</div>
-          <p class="mb-0">Registra aquí Un Nuevo Periodo</p>
-        </div>
-      </div>
-      <img class="img-fluid" src="/img/colegiofondo01.jpg" alt="">
-    </a>
-  </div>-->
+    
 </div>
 </div>
 @endsection

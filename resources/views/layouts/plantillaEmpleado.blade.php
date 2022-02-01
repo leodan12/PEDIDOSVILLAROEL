@@ -7,7 +7,7 @@
  <link rel="icon" type="../../image/png" href="../../img/centrotpf.png">  <!--logo arriba--> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    CARGAHORARIA
+    PEDIDOSVILLAROEL
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--    FUENTESITAS E ICONOS     -->
@@ -54,7 +54,7 @@
         
           
           <li class="nav-item d-none d-sm-inline-block">
-            <a class="nav-link" rel="tooltip" title="Inicio" data-placement="bottom" href="/egresado">
+            <a class="nav-link" rel="tooltip" title="Inicio" data-placement="bottom" href="/empleado">
                 <img class="img-fluid" src="../../img/inicio.png">
                 
                  
@@ -64,23 +64,18 @@
             </a>
           </li>
           <li class="nav-item d-none d-sm-inline-block">
-            <a class="nav-link" rel="tooltip" title="Egresado" data-placement="bottom" href="/egresado">
-              <h5> DOCENTE</h5>       
+            <a class="nav-link" rel="tooltip" title="Egresado" data-placement="bottom" href="#">
+              <h5> EMPLEADO</h5>       
             </a>
           </li>
 
           <li class="nav-item d-none d-sm-inline-block">
-            <a class="nav-link" rel="tooltip" title="Experiencia Laboral" data-placement="bottom" href="/experiencialaborales">
-              <h5>EXPERIENCIA LABORAL</h5>
+            <a class="nav-link" rel="tooltip" title="Experiencia Laboral" data-placement="bottom" href="/asistencia">
+              <h5>REGISTRAR ASISTENCIA</h5>
             </a>
           </li>
 
-          <li class="nav-item d-none d-sm-inline-block">
-            <a class="nav-link" rel="tooltip" title="Publicaciones" data-placement="bottom" href="/publicaciones">
-              <h5>PUBLICACIONES</h5>
-            </a>
-          </li>
-         
+          
         </ul>
       </div>
 
@@ -88,8 +83,8 @@
 
         
         <a class="navbar-brand" href="#" rel="tooltip" title="Hemos trabajado mucho en este proyecto" data-placement="bottom" >    
-            <div class="d-md-none h6" >⭐ BIENVENIDO A EL PROYECTO DE ING DE SOFTWARE II⭐</div>
-            <div class="d-none d-md-block h5" >⭐ BIENVENIDO A EL PROYECTO DE ING DE SOFTWARE II⭐</div>
+            <div class="d-md-none h6" >⭐ BIENVENIDO A EL PROYECTO ING DE IOT⭐</div>
+            <div class="d-none d-md-block h5" >⭐ BIENVENIDO A EL PROYECTO DE IOT⭐</div>
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation" style="position: absolute;bottom: 18px; right: 5px;">
           <span class="navbar-toggler-bar top-bar"></span>
@@ -148,7 +143,7 @@
 
             <h1 class="mb-1" >UNIVERSIDAD NACIONAL DE TRUJILLO</h1> 
             <h3 class="mb-5">
-              <em>ASIGNACION DE CARGA HORARIA DE DOCENTES </em>
+              <em>PEDIDOS VILLAROEL </em>
             </h3>
 
             <h3 class="mb-5">

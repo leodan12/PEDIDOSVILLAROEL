@@ -18,5 +18,7 @@ class PerfilsSeeder extends Seeder
 
         DB::table('perfils')->insert(['perfil' => 'gerente', ]);
 
+        DB::table('perfils')->insert(['perfil' => 'empleado', ]);
+
     }
 }

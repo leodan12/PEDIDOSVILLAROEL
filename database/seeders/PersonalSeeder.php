@@ -22,6 +22,7 @@ class PersonalSeeder extends Seeder
             'telefono' => '984528488', 
             'direccion' => 'Av. Juan Pablo', 
             'sexo' => 'MASCULINO', 
+            'idUsuario' => '3', 
         ]);
 
         DB::table('personal')->insert([
@@ -31,6 +32,7 @@ class PersonalSeeder extends Seeder
             'telefono' => '984528488', 
             'direccion' => 'Av. Juan Pablo', 
             'sexo' => 'MASCULINO', 
+            'idUsuario' => '4', 
         ]);
     }
 }
